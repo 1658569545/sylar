@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations -shared -Wl,-soname,libtest_module.so -o ../lib/libtest_module.so CMakeFiles/test_module.dir/tests/test_module.cc.o 

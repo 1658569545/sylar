@@ -1,0 +1,207 @@
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=class.vec_map description=system person typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<Person, std::allocator<Person> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<Person, std::allocator<Person> > > > > value={}
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=class.map description=system person typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Person, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Person> > > value={}
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=class.person description=system person typename=Person value=name: ""
+age: 0
+sex: false
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.str_int_map description=system str int map typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > > value=k: 2
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=http.response.max_body_size description=http response max body size typename=unsigned long value=67108864
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=http.response.buffer_size description=http response buffer size typename=unsigned long value=4096
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=tcp.connect.timeout description=tcp connect timeout typename=int value=5000
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=http.request.buffer_size description=http request buffer size typename=unsigned long value=4096
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=fiber.stack_size description=fiber stack size typename=unsigned int value=131072
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.int_vec description=system int vec typename=std::vector<int, std::allocator<int> > value=- 1
+- 2
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=sqlite3.dbs description=sqlite3 dbs typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value={}
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=rock.protocol.max_length description=rock protocol max length typename=unsigned int value=67108864
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=redis.config description=redis config typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value=local:
+  host: 127.0.0.1:6379
+  pool: 2
+  timeout: 100
+  type: fox_redis
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=mysql.dbs description=mysql dbs typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value={}
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=websocket.message.max_size description=websocket message max size typename=unsigned int value=33554432
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=http.request.max_body_size description=http request max body size typename=unsigned long value=67108864
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=daemon.restart_interval description=daemon restart interval typename=unsigned int value=5
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=fox_thread description=confg for thread typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value=redis:
+  advance: 0
+  name: redis
+  num: 2
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.str_int_umap description=system str int map typename=std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > > value=k: 2
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=rock_services description=rock_services typename=std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value=sylar.top:
+  all: fair
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=service_discovery.zk description=service discovery zookeeper typename=std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > value=127.0.0.1:21811
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=logs description=logs config typename=std::set<sylar::LogDefine, std::less<sylar::LogDefine>, std::allocator<sylar::LogDefine> > value=- name: root
+  level: INFO
+  appenders:
+    - type: FileLogAppender
+      file: root.txt
+    - type: StdoutLogAppender
+- name: system
+  level: INFO
+  appenders:
+    - type: FileLogAppender
+      file: system.txt
+    - type: StdoutLogAppender
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=tcp_server.read_timeout description=tcp server read timeout typename=unsigned long value=120000
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=workers description=worker config typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value=accept:
+  thread_num: 2
+http_io:
+  thread_num: 1
+io:
+  thread_num: 8
+notify:
+  thread_num: 8
+service_io:
+  thread_num: 4
+worker:
+  thread_num: 8
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=module.path description=module path typename=std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > value=module
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=server.work_path description=server work path typename=std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > value=/apps/work/sylar
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=servers description=http server config typename=std::vector<sylar::TcpServerConf, std::allocator<sylar::TcpServerConf> > value=- id: ""
+  type: http
+  name: sylar/1.1
+  keepalive: 1
+  timeout: 1000
+  ssl: 0
+  cert_file: ""
+  key_file: ""
+  accept_worker: accept
+  io_worker: http_io
+  process_worker: http_io
+  args: {}
+  address:
+    - 0.0.0.0:8090
+    - 127.0.0.1:8091
+    - /tmp/test.sock
+- id: ""
+  type: rock
+  name: sylar-rock/1.0
+  keepalive: 0
+  timeout: 1000
+  ssl: 0
+  cert_file: ""
+  key_file: ""
+  accept_worker: accept
+  io_worker: io
+  process_worker: io
+  args: {}
+  address:
+    - 0.0.0.0:8062
+    - 0.0.0.0:8061
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.value description=system value typename=float value=10.1999998
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.port description=system port typename=int value=8080
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=server.pid_file description=server pid file typename=std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > value=sylar.pid
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.int_uset description=system int uset typename=std::unordered_set<int, std::hash<int>, std::equal_to<int>, std::allocator<int> > value=- 2
+- 1
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=rock.protocol.gzip_min_length description=rock protocol gizp min length typename=unsigned int value=4096
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.int_list description=system int list typename=std::__cxx11::list<int, std::allocator<int> > value=- 1
+- 2
+2025-01-07 21:07:30	20570	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.int_set description=system int set typename=std::set<int, std::less<int>, std::allocator<int> > value=- 1
+- 2
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=class.vec_map description=system person typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<Person, std::allocator<Person> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<Person, std::allocator<Person> > > > > value={}
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=class.map description=system person typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Person, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Person> > > value={}
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=class.person description=system person typename=Person value=name: ""
+age: 0
+sex: false
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.str_int_map description=system str int map typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > > value=k: 2
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=http.response.max_body_size description=http response max body size typename=unsigned long value=67108864
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=http.response.buffer_size description=http response buffer size typename=unsigned long value=4096
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=tcp.connect.timeout description=tcp connect timeout typename=int value=5000
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=http.request.buffer_size description=http request buffer size typename=unsigned long value=4096
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=fiber.stack_size description=fiber stack size typename=unsigned int value=131072
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.int_vec description=system int vec typename=std::vector<int, std::allocator<int> > value=- 1
+- 2
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=sqlite3.dbs description=sqlite3 dbs typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value={}
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=rock.protocol.max_length description=rock protocol max length typename=unsigned int value=67108864
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=redis.config description=redis config typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value=local:
+  host: 127.0.0.1:6379
+  pool: 2
+  timeout: 100
+  type: fox_redis
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=mysql.dbs description=mysql dbs typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value={}
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=websocket.message.max_size description=websocket message max size typename=unsigned int value=33554432
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=http.request.max_body_size description=http request max body size typename=unsigned long value=67108864
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=daemon.restart_interval description=daemon restart interval typename=unsigned int value=5
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=fox_thread description=confg for thread typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value=redis:
+  advance: 0
+  name: redis
+  num: 2
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.str_int_umap description=system str int map typename=std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > > value=k: 2
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=rock_services description=rock_services typename=std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value=sylar.top:
+  all: fair
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=service_discovery.zk description=service discovery zookeeper typename=std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > value=127.0.0.1:21811
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=logs description=logs config typename=std::set<sylar::LogDefine, std::less<sylar::LogDefine>, std::allocator<sylar::LogDefine> > value=- name: root
+  level: INFO
+  appenders:
+    - type: FileLogAppender
+      file: root.txt
+    - type: StdoutLogAppender
+- name: system
+  level: INFO
+  appenders:
+    - type: FileLogAppender
+      file: system.txt
+    - type: StdoutLogAppender
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=tcp_server.read_timeout description=tcp server read timeout typename=unsigned long value=120000
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=workers description=worker config typename=std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > > > value=accept:
+  thread_num: 2
+http_io:
+  thread_num: 1
+io:
+  thread_num: 8
+notify:
+  thread_num: 8
+service_io:
+  thread_num: 4
+worker:
+  thread_num: 8
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=module.path description=module path typename=std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > value=module
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=server.work_path description=server work path typename=std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > value=/code/C++/sylar-master/sylar
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=servers description=http server config typename=std::vector<sylar::TcpServerConf, std::allocator<sylar::TcpServerConf> > value=- id: ""
+  type: http
+  name: sylar/1.1
+  keepalive: 1
+  timeout: 1000
+  ssl: 0
+  cert_file: ""
+  key_file: ""
+  accept_worker: accept
+  io_worker: http_io
+  process_worker: http_io
+  args: {}
+  address:
+    - 0.0.0.0:8090
+    - 127.0.0.1:8091
+    - /tmp/test.sock
+- id: ""
+  type: rock
+  name: sylar-rock/1.0
+  keepalive: 0
+  timeout: 1000
+  ssl: 0
+  cert_file: ""
+  key_file: ""
+  accept_worker: accept
+  io_worker: io
+  process_worker: io
+  args: {}
+  address:
+    - 0.0.0.0:8062
+    - 0.0.0.0:8061
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.value description=system value typename=float value=10.1999998
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.port description=system port typename=int value=8080
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=server.pid_file description=server pid file typename=std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > value=sylar.pid
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.int_uset description=system int uset typename=std::unordered_set<int, std::hash<int>, std::equal_to<int>, std::allocator<int> > value=- 2
+- 1
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=rock.protocol.gzip_min_length description=rock protocol gizp min length typename=unsigned int value=4096
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.int_list description=system int list typename=std::__cxx11::list<int, std::allocator<int> > value=- 1
+- 2
+2025-01-07 21:13:26	20653	UNKNOW	0	[INFO]	[root]	tests/test_config.cc:250	name=system.int_set description=system int set typename=std::set<int, std::less<int>, std::allocator<int> > value=- 1
+- 2
+2025-01-08 15:26:03	22933	thread_0	0	[INFO]	[root]	tests/test_thread.cc:14	name:thread_0 this.name:thread_0 thread name:thread_0 id:22933 this.id:22933
+2025-01-08 15:26:03	22934	thread_1	0	[INFO]	[root]	tests/test_thread.cc:14	name:thread_1 this.name:thread_1 thread name:thread_1 id:22934 this.id:22934
+2025-01-08 15:26:03	22935	thread_2	0	[INFO]	[root]	tests/test_thread.cc:14	name:thread_2 this.name:thread_2 thread name:thread_2 id:22935 this.id:22935
+2025-01-08 15:26:03	22934	thread_1	0	[INFO]	[root]	tests/test_thread.cc:19	arg: 123456
+2025-01-08 15:26:03	22935	thread_2	0	[INFO]	[root]	tests/test_thread.cc:19	arg: 123456
+2025-01-08 15:26:03	22933	thread_0	0	[INFO]	[root]	tests/test_thread.cc:19	arg: 123456
+2025-01-08 15:26:03	22932	UNKNOW	0	[INFO]	[root]	tests/test_thread.cc:42	count = 30000

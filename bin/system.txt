@@ -1,0 +1,36 @@
+2025-01-07 17:05:25	8191	UNKNOW	0	[INFO]	[system]	tests/test_config.cc:219	hello system
+
+2025-01-07 17:05:25 - hello system
+
+2025-01-07 17:05:25 - LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/fox_thread.yml ok
+2025-01-07 17:05:25 - LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/worker.yml ok
+2025-01-07 17:05:25 - LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/redis.yml ok
+2025-01-07 17:05:25 - LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/service.yml ok
+2025-01-07 17:05:25 - LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/log.yml ok
+2025-01-07 17:05:25 - LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/system.yml ok
+2025-01-07 17:05:25 - LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/server.yml ok
+2025-01-07 20:20:32	13696	UNKNOW	0	[INFO]	[system]	tests/test_config.cc:221	hello system
+
+2025-01-07 20:20:32 - hello system
+
+2025-01-07 20:30:48	14910	UNKNOW	0	[INFO]	[system]	tests/test_config.cc:220	hello system
+
+2025-01-07 20:30:48 - hello system
+
+2025-01-07 20:32:24	15499	UNKNOW	0	[INFO]	[system]	tests/test_config.cc:220	hello system
+
+2025-01-07 20:32:24 - hello system
+
+2025-01-07 20:32:34	15514	UNKNOW	0	[INFO]	[system]	tests/test_config.cc:220	hello system
+
+2025-01-07 20:32:34 - hello system
+
+2025-01-07 21:07:20	20570	UNKNOW	0	[INFO]	[system]	sylar/config.cc:100	LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/log.yml ok
+2025-01-07 21:07:20	20570	UNKNOW	0	[INFO]	[system]	sylar/config.cc:100	LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/system.yml ok
+2025-01-07 21:07:20	20570	UNKNOW	0	[INFO]	[system]	sylar/config.cc:100	LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/server.yml ok
+2025-01-07 21:13:16	20653	UNKNOW	0	[INFO]	[system]	sylar/config.cc:100	LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/log.yml ok
+2025-01-07 21:13:16	20653	UNKNOW	0	[INFO]	[system]	sylar/config.cc:100	LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/system.yml ok
+2025-01-07 21:13:16	20653	UNKNOW	0	[INFO]	[system]	sylar/config.cc:100	LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/server.yml ok
+2025-01-08 15:26:03	22932	UNKNOW	0	[INFO]	[system]	sylar/config.cc:100	LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/log.yml ok
+2025-01-08 15:26:03	22932	UNKNOW	0	[INFO]	[system]	sylar/config.cc:100	LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/system.yml ok
+2025-01-08 15:26:03	22932	UNKNOW	0	[INFO]	[system]	sylar/config.cc:100	LoadConfFile file=/home/xx/code/C++/sylar-master/bin/conf/server.yml ok
