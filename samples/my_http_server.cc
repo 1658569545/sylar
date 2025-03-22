@@ -12,7 +12,10 @@ void run() {
     }
 
     //sylar::http::HttpServer::ptr http_server(new sylar::http::HttpServer(true, worker.get()));
-    sylar::http::HttpServer::ptr http_server(new sylar::http::HttpServer(true));
+    // 开长连接
+    // sylar::http::HttpServer::ptr http_server(new sylar::http::HttpServer(true));
+    // 不开长连接
+    sylar::http::HttpServer::ptr http_server(new sylar::http::HttpServer);
     bool ssl = false;
     while(!http_server->bind(addr, ssl)) {
         SYLAR_LOG_ERROR(g_logger) << "bind " << *addr << " fail";

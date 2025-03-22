@@ -130,7 +130,7 @@ void Scheduler::setThis() {
 }
 
 void Scheduler::run() {
-    SYLAR_LOG_DEBUG(g_logger) << m_name << "run";
+    SYLAR_LOG_DEBUG(g_logger) << m_name << " run";
     // 设置为true，支持异步操作
     set_hook_enable(true);
     setThis();
@@ -201,8 +201,7 @@ void Scheduler::run() {
                 schedule(ft.fiber);
             } 
             // 如果为INIT或HOLD状态
-            else if(ft.fiber->getState() != Fiber::TERM
-                    && ft.fiber->getState() != Fiber::EXCEPT) {
+            else if(ft.fiber->getState() != Fiber::TERM && ft.fiber->getState() != Fiber::EXCEPT) {
                 ft.fiber->m_state = Fiber::HOLD;
             }
             // 执行完毕重置数据ft

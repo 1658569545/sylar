@@ -20,7 +20,8 @@ namespace sylar {
 
 /**
  * @brief 协程调度器
- * @details 封装的是N-M的协程调度器,调度器内部有一个线程池,支持协程在线程池里面切换,即一个协程调度器对应N个线程，N个线程对应M个协程。
+ * @attention 封装的是N-M的协程调度器,调度器内部有一个线程池,支持协程在线程池里面切换,即一个协程调度器对应N个线程，N个线程对应M个协程。
+ * @attention 同时每个线程内也会有一个调度协程
  */
 class Scheduler {
 public:
@@ -134,6 +135,7 @@ private:
         bool need_tickle = m_fibers.empty();
         FiberAndThread ft(fc, thread);
         if(ft.fiber || ft.cb) {
+            //m_fibers.push_back(std::move(ft)); 
             m_fibers.push_back(ft);
         }
         return need_tickle;

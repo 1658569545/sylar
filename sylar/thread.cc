@@ -74,6 +74,7 @@ void Thread::join() {
 
 void* Thread::run(void* arg) {
     SYLAR_LOG_DEBUG(g_logger)<<"Thread run";
+    // 记录传入的线程类对象信息。
     Thread* thread = (Thread*)arg;
     
     //记录当前线程的相关信息

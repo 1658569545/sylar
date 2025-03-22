@@ -338,6 +338,7 @@ void IOManager::tickle() {
     if(!hasIdleThreads()) {
         return;
     }
+    SYLAR_LOG_DEBUG(g_logger) << "io_tickle";
     // 往管道中写一个字符，用来通知IO调度器
     int rt = write(m_tickleFds[1], "T", 1);
     SYLAR_ASSERT(rt == 1);

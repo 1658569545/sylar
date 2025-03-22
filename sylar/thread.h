@@ -7,7 +7,7 @@
 #ifndef __SYLAR_THREAD_H__
 #define __SYLAR_THREAD_H__
 
-#include<string>
+#include <string>
 #include "mutex.h"
 
 

@@ -3,7 +3,7 @@
 static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();
 
 void test_fiber() {
-    static int s_count = 1000;
+    static int s_count = 5;
     SYLAR_LOG_INFO(g_logger) << "test in fiber s_count=" << s_count;
 
     //sleep(1);     //手动阻塞,阻塞会发生段错误,为什么会这样
@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
     auto start_time = high_resolution_clock::now();
 
     // 创建协程调度器
-    sylar::Scheduler sc(100, true, "work");
+    sylar::Scheduler sc(2, true, "work");
 
     //启动
     sc.start();
